@@ -1,0 +1,17 @@
+# Build and distribution files, change every time
+build
+dist
+*.pyc
+.eggs
+
+# Text editor artifacts
+.*.sw*
+
+# Data from the HTTP requests, cached so we don't duplicate requests
+cache.sqlite
+
+# Authentication: provide your own
+smtp.conf
+
+# Virtual environment: dependencies
+venv
